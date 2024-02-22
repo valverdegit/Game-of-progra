@@ -4,7 +4,7 @@ intereses_mensuales= (monto/12)*interes_anuales
 
 mesesCorrecto=True
 while mesesCorrecto==True:
-    plazoMeses=int(input("Porfavor digite el tiempo en meses que desea que dure el prestamo:\nSolose permiten entre 6 y 60\n"))
+    plazoMeses=int(input("Porfavor digite el tiempo en meses que desea que dure el prestamo:\nSo lose permiten entre 6 y 60\n"))
     if plazoMeses>=6 and plazoMeses<=60:
         mesesCorrecto=False
     else:
