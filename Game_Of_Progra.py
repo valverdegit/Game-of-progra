@@ -9,4 +9,4 @@ while mesesCorrecto==True:
         mesesCorrecto=False
     else:
         print("Porfavor indique un plazo entre 6 meses y 60 meses")
-cuotaMensual = (monto/plazoMeses) = intereses_mensuales
+cuotaMensual = (monto/plazoMeses) + intereses_mensuales
