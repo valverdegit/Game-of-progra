@@ -10,3 +10,5 @@ while mesesCorrecto==True:
     else:
         print("Porfavor indique un plazo entre 6 meses y 60 meses")
 cuotaMensual = (monto/plazoMeses) + intereses_mensuales
+
+print(f"El monto total a pagar es de: ₡{cuotaMensual* plazoMeses}"
