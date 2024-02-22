@@ -1,5 +1,5 @@
 monto= float(input("Ingrese el monto que desea solicitar: "))
-intereses_anuales= 0.20
+interes_anuales= 0.20
 intereses_mensuales= (monto/12)*interes_anuales
 
 mesesCorrecto=True
